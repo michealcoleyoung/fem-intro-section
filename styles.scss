@@ -31,7 +31,7 @@ nav {
 
     li {
         text-decoration: none;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         color: black;
     }
 
@@ -45,7 +45,12 @@ nav {
     }
 
     .login {
+        padding: 10px;
         text-align: center;
+        justify-content: center;
+        width: 100%;
+        cursor: pointer;
+
     }
 
     .register-button {
@@ -68,3 +73,10 @@ nav {
 .close-menu {
     cursor: pointer;
 }
+
+.features-sub {
+    img {
+        margin-right: 10px;
+    }
+}
+

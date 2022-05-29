@@ -32,7 +32,7 @@ nav ul {
 
 nav li {
   text-decoration: none;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: black;
 }
 
@@ -46,7 +46,13 @@ nav p {
 }
 
 nav .login {
+  padding: 10px;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  cursor: pointer;
 }
 
 nav .register-button {
@@ -67,5 +73,9 @@ nav span {
 
 .close-menu {
   cursor: pointer;
+}
+
+.features-sub img {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
