@@ -1,0 +1,70 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.sidebar-active {
+    background-color: white;
+    width: 150px;
+    float: right;
+    padding: 40px;
+    object-fit: cover;
+    height: 100vh;
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: -50px;
+
+    ul {
+        list-style-type: none;
+        text-decoration: none;
+        
+    }
+
+    li {
+        text-decoration: none;
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .login {
+        text-align: center;
+    }
+
+    .register-button {
+        text-align: center;
+        justify-content: center;
+        border: 2px solid black;
+        padding: 10px;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    span {
+        margin-left: 10px;
+    }
+
+    
+}
+
+.close-menu {
+    cursor: pointer;
+}
