@@ -1,4 +1,14 @@
-
+function menuToggle() {
+    var image = document.getElementById('menu');
+    if (image.src.match("images/icon-close-menu.svg")) {
+        image.src = "images/icon-menu.svg";
+        document.getElementById('sidebar-active').style.display = "none";
+    }
+    else {
+        image.src = "images/icon-close-menu.svg";
+        document.getElementById('sidebar-active').style.display = "block";
+    }
+}
 
 function featuresToggle() {
     var image = document.getElementById('features');
