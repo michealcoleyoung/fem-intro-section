@@ -72,11 +72,18 @@ nav {
 
 .close-menu {
     cursor: pointer;
+    float: right;
 }
 
 .features-sub {
+    display: none;
     img {
         margin-right: 10px;
     }
+
+}
+
+.company-sub {
+    display: none;
 }
 

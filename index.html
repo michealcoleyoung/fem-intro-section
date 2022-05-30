@@ -25,23 +25,23 @@
 <body>
 
 <div class="sidebar-active">
-  <img src="images/icon-close-menu.svg" alt="" style="float: right;" class="close-menu">
+  <img src="images/icon-close-menu.svg" alt="" style="float: right;" class="close-menu" onclick="menuToggle()">
   <header>
     <nav>
       <ul>
 
-        <li><a href="#">Features<span><img src="images/icon-arrow-down.svg" alt=""></span></a></li>
+        <li><a href="#" onclick="featuresToggle()">Features<span><img src="images/icon-arrow-down.svg" alt="" id="features"></span></a></li>
         <!-- Features sub menu -->
-        <ul class="features-sub">
+        <ul class="features-sub" id="features-sub">
           <li><a href="#"><img src="images/icon-todo.svg" alt="">ToDo List</a></li>
           <li><a href="#"><img src="images/icon-calendar.svg" alt="">Calendar</li>
           <li><a href="#"><img src="images/icon-reminders.svg" alt="">Reminders</li>
           <li><a href="#"><img src="images/icon-planning.svg" alt="">Planning</span></li>
         </ul>
 
-        <li><a href="#">Company<span><img src="images/icon-arrow-down.svg" alt=""></span></a></li>
+        <li><a href="#" onclick="companyToggle()">Company<span><img src="images/icon-arrow-down.svg" alt="" id="company"></span></a></li>
         <!-- Company sub menu -->
-        <ul class="company-sub">
+        <ul class="company-sub" id="company-sub">
           <li><a href="#">History</a></li>
           <li><a href="#">Our Team</a></li>
           <li><a href="#">Blog</a></li>
@@ -68,6 +68,8 @@
       Coded by <a href="#">Cole Young</a>.
     </div>
 </footer>
+
+<script src="index.js"></script>
 
 </body>
 </html>

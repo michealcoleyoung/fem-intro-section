@@ -73,9 +73,18 @@ nav span {
 
 .close-menu {
   cursor: pointer;
+  float: right;
+}
+
+.features-sub {
+  display: none;
 }
 
 .features-sub img {
   margin-right: 10px;
+}
+
+.company-sub {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */
