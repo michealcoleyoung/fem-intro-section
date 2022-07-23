@@ -6,7 +6,7 @@ footer {
 }
 
 body {
-  max-width: 100%;
+  margin: 0;
 }
 
 p {
@@ -15,10 +15,7 @@ p {
 
 .mobile-view {
   text-align: center;
-  font-family: 'PT Sans', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  font-family: "PT Sans", sans-serif;
 }
 
 .mobile-logo {
@@ -32,12 +29,13 @@ p {
 }
 
 .hero-mobile {
-  -o-object-fit: cover;
-     object-fit: cover;
+  margin-top: 20px;
   height: auto;
   width: 100%;
-  max-width: 400px;
-  margin-top: 20px;
+  border: 2px solid black;
+  border: 0px solid red;
+  width: 100%;
+  margin: 40px auto;
 }
 
 .slogan {
@@ -58,18 +56,11 @@ p {
 
 .company-divs {
   margin-top: 40px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  transform: scale(0.7);
 }
-
-img {
+.company-divs img {
   padding: 15px;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
