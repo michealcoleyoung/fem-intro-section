@@ -5,9 +5,20 @@ footer {
   width: 100%;
 }
 
+body {
+  max-width: 100%;
+}
+
+p {
+  padding: 10px;
+}
+
 .mobile-view {
   text-align: center;
   font-family: 'PT Sans', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .mobile-logo {
@@ -26,6 +37,11 @@ footer {
   height: auto;
   width: 100%;
   max-width: 400px;
+  margin-top: 20px;
+}
+
+.slogan {
+  font-size: 40px;
 }
 
 .learn-more {
@@ -37,18 +53,23 @@ footer {
   font-weight: bold;
   border-radius: 15px;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 .company-divs {
-  margin-top: 20px;
+  margin-top: 40px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
-.company-divs img {
-  width: 50%;
+img {
+  padding: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
